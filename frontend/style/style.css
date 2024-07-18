@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+body {
+    font-family: Roboto;
+}
+
+
+#name {
+    height: 40px;
+    width: 220px;
+    font-size: 17px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+}
+
+#age {
+    height: 40px;
+    width: 220px;
+    font-size: 17px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+}
+
+.btn_show {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(7, 7, 243);
+    border: 2px solid rgb(7, 7, 243);
+    border-radius: 10px;
+    color: white;
+}
+
+
+table {
+    width: 90%;
+    margin: 100px auto;
+    
+}
+
+table tr th {
+    text-align: start;
+    padding: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color:#c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    
+}
+
+table tr td{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    
+}
+#pererabotka {
+    margin-right: 10px;
+}
+
+
+
+dialog {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 520px;
+
+}
+
+
+.input_name_edit {
+    height: 40px;
+    width: 220px;
+    font-size: 17px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-right: 10px;
+
+    
+}
+
+
+.input_age_edit {
+    height: 40px;
+    width: 220px;
+    font-size: 17px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.button_save {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(7, 7, 243);
+    border: 2px solid rgb(7, 7, 243);
+    border-radius: 10px;
+    color: white;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.button_cancel {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(7, 7, 243);
+    border: 2px solid rgb(7, 7, 243);
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.show {
+    text-decoration: line-through red;
+}
+
+
